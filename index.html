@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title> Tools Hub</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 8px rgba(0,0,0,0.25);
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  a.button {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    user-select: none;
+  }
+
+  a.button:hover {
+    background: #fff;
+    color: #4f46e5;
+    box-shadow: 0 6px 20px rgba(255,255,255,0.7);
+    transform: scale(1.05);
+  }
+
+  a.button:active {
+    transform: scale(0.98);
+  }
+
+  @media (max-width: 400px) {
+    .buttons {
+      max-width: 90vw;
+    }
+  }
+
+  footer {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    user-select: none;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+</style>
+</head>
+<body>
+<div class="container" role="main">
+    <h1>Tool Hub</h1>
+    <nav class="buttons" aria-label="Tool navigation">
+      <a href="https://nobleod.github.io/gript-photo-cropper-/" class="button" target="_blank" rel="noopener noreferrer">Photo Cropper</a>
+      <a href="https://nobleod.github.io/text-tool/" class="button" target="_blank" rel="noopener noreferrer">Text Tool</a>
+      <a href="https://nobleod.github.io/metadataguide/" class="button" target="_blank" rel="noopener noreferrer">Metadata Guide</a>
+      <a href="https://nobleod.github.io/Side-by-Side-Photo-Editor-/" class="button" target="_blank" rel="noopener noreferrer">&nbsp; &nbsp; Side By Side Photo&nbsp; &nbsp;&nbsp;</a>
+  </nav>
+  </div>
+  <footer>By Noble Paul</footer>
+</body>
+</html>
